@@ -1,11 +1,12 @@
-import merge_sorted_array_88.Solution;
+import remove_element_27.Solution;
 
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        int[] test = new int[]{1,2,3,0,0,0};
-        new Solution().merge(test, 3, new int[]{2,5,6}, 3);
+        int[] test = new int[]{3,2,2,3};
+        int testValue = new Solution().removeElement(test, 3);
         System.out.println(Arrays.toString(test));
+        System.out.println(testValue);
     }
 }
