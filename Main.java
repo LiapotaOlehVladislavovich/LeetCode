@@ -1,7 +1,7 @@
-import check_if_n_and_its_double_exist_1346.Solution;
+import valid_mountain_array_941.Solution;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(new Solution().checkIfExist(new int[]{3,1,7,11}));
+        System.out.println(new Solution().validMountainArray(new int[]{3,5,5}));
     }
 }
