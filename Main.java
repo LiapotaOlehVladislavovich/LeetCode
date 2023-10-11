@@ -1,12 +1,7 @@
-import remove_duplicates_from_sorted_array_26.Solution;
-
-import java.util.Arrays;
+import check_if_n_and_its_double_exist_1346.Solution;
 
 public class Main {
     public static void main(String[] args) {
-        int[] test = new int[]{1, 1, 2};
-        int testValue = new Solution().removeDuplicates(test);
-        System.out.println(Arrays.toString(test));
-        System.out.println(testValue);
+        System.out.println(new Solution().checkIfExist(new int[]{3,1,7,11}));
     }
 }
