@@ -1,9 +1,11 @@
-import replace_elements_with_greatest_element_on_right_side_1299.Solution;
+import move_zeroes_283.Solution;
 
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(new Solution().replaceElements(new int[]{400})));
+        int[] test = new int[]{4,2,4,0,0,3,0,5,1,0};
+        new Solution().moveZeroes(test);
+        System.out.println(Arrays.toString(test));
     }
 }
