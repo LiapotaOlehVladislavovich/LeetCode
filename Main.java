@@ -1,11 +1,9 @@
-import move_zeroes_283.Solution;
+import sort_array_by_parity_905.Solution;
 
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        int[] test = new int[]{4,2,4,0,0,3,0,5,1,0};
-        new Solution().moveZeroes(test);
-        System.out.println(Arrays.toString(test));
+        System.out.println(Arrays.toString(new Solution().sortArrayByParity(new int[]{3,1,2,4})));
     }
 }
