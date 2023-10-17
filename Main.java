@@ -1,9 +1,11 @@
-import sort_array_by_parity_905.Solution;
+import remove_element_27.Solution;
 
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(new Solution().sortArrayByParity(new int[]{3,1,2,4})));
+        int[] test = new int[]{0,1,2,2,3,0,4,2};
+        System.out.println(new Solution().removeElement(test, 2));
+        System.out.println(Arrays.toString(test));
     }
 }
