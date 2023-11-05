@@ -1,15 +1,18 @@
-import odd_even_linked_list_328.ListNode;
-import odd_even_linked_list_328.Solution;
+import design_linked_list_707.MyLinkedList;
 
 public class Main {
     public static void main(String[] args) {
-        ListNode head = new ListNode(2,
-                new ListNode(1,
-                        new ListNode(3,
-                                new ListNode(5,
-                                        new ListNode(6,
-                                                new ListNode(4,
-                                                        new ListNode(7)))))));
-        ListNode test = new Solution().oddEvenList(head);
+        MyLinkedList list = new MyLinkedList();
+        list.addAtHead(2);
+        list.deleteAtIndex(1);
+        list.addAtHead(2);
+        list.addAtHead(7);
+        list.addAtHead(3);
+        list.addAtHead(2);
+        list.addAtHead(5);
+        list.addAtTail(5);
+        list.get(5);
+        list.deleteAtIndex(6);
+        list.deleteAtIndex(4);
     }
 }

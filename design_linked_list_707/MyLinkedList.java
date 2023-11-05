@@ -40,6 +40,12 @@ public class MyLinkedList {
 
         if (index == 0) {
             newNode.next = head;
+            newNode.prev = null;
+
+            if (head != null) {
+                head.prev = newNode;
+            }
+
             head = newNode;
         } else {
             MyNode currentNode = head;
@@ -49,7 +55,12 @@ public class MyLinkedList {
             }
 
             newNode.next = currentNode.next;
+            newNode.prev = currentNode;
             currentNode.next = newNode;
+
+            if (newNode.next != null) {
+                newNode.next.prev = newNode;
+            }
         }
 
         size++;
@@ -70,6 +81,10 @@ public class MyLinkedList {
             }
 
             currentNode.next = currentNode.next.next;
+
+            if (currentNode.next != null) {
+                currentNode.next.prev = currentNode;
+            }
         }
 
         size--;
@@ -78,10 +93,12 @@ public class MyLinkedList {
     private static class MyNode {
         private final int val;
         private MyNode next;
+        private MyNode prev;
 
         public MyNode(int val) {
             this.val = val;
             next = null;
+            prev = null;
         }
     }
 }
