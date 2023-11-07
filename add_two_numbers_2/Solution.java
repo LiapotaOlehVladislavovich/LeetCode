@@ -1,7 +1,5 @@
 package add_two_numbers_2;
 
-import java.math.BigInteger;
-
 public class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode resultList = null;
