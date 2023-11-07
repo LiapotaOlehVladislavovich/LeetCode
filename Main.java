@@ -1,18 +1,19 @@
-import design_linked_list_707.MyLinkedList;
+import add_two_numbers_2.ListNode;
+import add_two_numbers_2.Solution;
 
 public class Main {
     public static void main(String[] args) {
-        MyLinkedList list = new MyLinkedList();
-        list.addAtHead(2);
-        list.deleteAtIndex(1);
-        list.addAtHead(2);
-        list.addAtHead(7);
-        list.addAtHead(3);
-        list.addAtHead(2);
-        list.addAtHead(5);
-        list.addAtTail(5);
-        list.get(5);
-        list.deleteAtIndex(6);
-        list.deleteAtIndex(4);
+        ListNode l1 = new ListNode(9,
+                new ListNode(9,
+                        new ListNode(9,
+                                new ListNode(9,
+                                        new ListNode(9,
+                                                new ListNode(9,
+                                                        new ListNode(9)))))));
+        ListNode l2 = new ListNode(9
+                , new ListNode(9
+                , new ListNode(9
+                , new ListNode(9))));
+        ListNode test = new Solution().addTwoNumbers(l1, l2);
     }
 }
