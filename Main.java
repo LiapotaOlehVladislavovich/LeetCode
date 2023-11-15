@@ -1,9 +1,7 @@
-import rotate_list_61.ListNode;
-import rotate_list_61.Solution;
+import plus_one_66.Solution;
 
 public class Main {
     public static void main(String[] args) {
-        ListNode head = new ListNode(1);
-        new Solution().rotateRight(head, 1);
+        int[] test = new Solution().plusOne(new int[]{1, 2, 3});
     }
 }
