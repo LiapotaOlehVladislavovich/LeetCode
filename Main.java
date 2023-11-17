@@ -1,9 +1,7 @@
-import diagonal_traverse_498.Solution;
+import spiral_matrix_54.Solution;
 
 public class Main {
     public static void main(String[] args) {
-        int[] test = new Solution().findDiagonalOrder(new int[][] {
-                {2, 3}
-        });
+        new Solution().spiralOrder(new int[][]{{1,2,3,4},{5,6,7,8},{9,10,11,12}});
     }
 }
