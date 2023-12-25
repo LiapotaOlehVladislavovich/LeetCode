@@ -12,14 +12,12 @@ public class Solution {
             frequency.put(num, frequency.getOrDefault(num, 0) + 1);
         }
 
-        // Step 2: Use a Max Heap to keep track of the k most frequent elements
         Queue<Integer> maxHeap = new PriorityQueue<>((a, b) -> frequency.get(b) - frequency.get(a));
 
         for (int f : frequency.keySet()) {
             maxHeap.offer(f);
         }
 
-        // Step 3: Build the result array
         int[] result = new int[k];
         for (int i = 0; i < k; i++) {
             result[i] = maxHeap.poll();
