@@ -1,7 +1,15 @@
-import first_unique_character_in_a_string_387.Solution;
+import binary_tree_postorder_traversal_145.Solution;
+import binary_tree_postorder_traversal_145.TreeNode;
 
 public class Main {
     public static void main(String[] args) {
-        new Solution().firstUniqChar("aabb");
+        TreeNode root = new TreeNode(1,
+                null,
+                new TreeNode(2,
+                        new TreeNode(3,
+                                null,
+                                null),
+                        null));
+        new Solution().postorderTraversal(root);
     }
 }
