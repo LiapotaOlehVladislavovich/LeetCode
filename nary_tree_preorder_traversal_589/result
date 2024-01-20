@@ -1,0 +1,4 @@
+For iterative realisation: Runtime 3 ms Beats 23.66% of users with Java
+                           Memory 44.52 MB Beats 59.65% of users with Java
+For recursive realisation: Runtime 1 ms Beats 52.47% of users with Java
+                           Memory 44.10 MB Beats 96.15% of users with Java
