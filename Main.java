@@ -1,15 +1,12 @@
-import replace_words_648.Solution;
-
-import java.util.LinkedList;
-import java.util.List;
+import kth_largest_element_in_a_stream_703.KthLargest;
 
 public class Main {
     public static void main(String[] args) {
-        List<String> dictionary = new LinkedList<>();
-        dictionary.add("cat");
-        dictionary.add("bat");
-        dictionary.add("rat");
-
-        new Solution().replaceWords(dictionary, "the cattle was rattled by the battery");
+        KthLargest test = new KthLargest(3, new int[]{4, 5, 8, 2});
+        int testVal = test.add(3);
+        testVal = test.add(5);
+        testVal = test.add(10);
+        testVal = test.add(9);
+        testVal = test.add(4);
     }
 }
