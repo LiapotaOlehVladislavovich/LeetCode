@@ -1,12 +1,13 @@
-import kth_largest_element_in_a_stream_703.KthLargest;
+import balanced_binary_tree_110.Solution;
+import balanced_binary_tree_110.TreeNode;
 
 public class Main {
     public static void main(String[] args) {
-        KthLargest test = new KthLargest(3, new int[]{4, 5, 8, 2});
-        int testVal = test.add(3);
-        testVal = test.add(5);
-        testVal = test.add(10);
-        testVal = test.add(9);
-        testVal = test.add(4);
+        TreeNode test = new TreeNode(3,
+                new TreeNode(9),
+                new TreeNode(20,
+                        new TreeNode(15),
+                        new TreeNode(7)));
+        new Solution().isBalanced(test);
     }
 }
