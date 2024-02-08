@@ -1,11 +1,9 @@
-import number_of_islands_200.Solution;
+import open_the_lock_752.Solution;
 
 public class Main {
     public static void main(String[] args) {
-        char[][] test = new char[][] {{'1','1','1','1','0'},
-                {'1','1','0','1','0'},
-                {'1','1','0','0','0'},
-                {'0','0','0','0','0'}};
-        new Solution().numIslands(test);
+        String[] deadends = new String[]{"0201","0101","0102","1212","2002"};
+        String target = "0202";
+        new Solution().openLock(deadends, target);
     }
 }
