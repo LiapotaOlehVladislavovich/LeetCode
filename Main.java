@@ -1,9 +1,24 @@
-import open_the_lock_752.Solution;
+import min_stack_155.MinStack;
 
 public class Main {
     public static void main(String[] args) {
-        String[] deadends = new String[]{"0201","0101","0102","1212","2002"};
-        String target = "0202";
-        new Solution().openLock(deadends, target);
+        MinStack test = new MinStack();
+        test.push(2147483646);
+        test.push(2147483646);
+        test.push(2147483646);
+        test.top();
+        test.pop();
+        test.getMin();
+        test.pop();
+        test.getMin();
+        test.pop();
+        test.push(2147483647);
+        test.top();
+        test.getMin();
+        test.push(-2147483648);
+        test.top();
+        test.getMin();
+        test.pop();
+        test.getMin();
     }
 }
