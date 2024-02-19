@@ -1,7 +1,8 @@
-import decode_string_394.Solution;
+import flood_fill_733.Solution;
 
 public class Main {
     public static void main(String[] args) {
-        new Solution().decodeString("abc3[cd]xyz");
+        new Solution().floodFill(new int[][]{{0,0,0},
+                {0,0,0}}, 0, 0, 0);
     }
 }
