@@ -1,7 +1,7 @@
-import search_a_2D_matrix_II_240.Solution;
+import NQueens_II_52.Solution;
 
 public class Main {
     public static void main(String[] args) {
-        new Solution().searchMatrix(new int[][]{{1,4,7,11,15},{2,5,8,12,19},{3,6,9,16,22},{10,13,14,17,24},{18,21,23,26,30}}, 5);
+        new Solution().totalNQueens(4);
     }
 }
