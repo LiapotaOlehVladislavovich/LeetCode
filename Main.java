@@ -1,7 +1,7 @@
-import NQueens_II_52.Solution;
+import generate_parentheses_22.Solution;
 
 public class Main {
     public static void main(String[] args) {
-        new Solution().totalNQueens(4);
+        new Solution().generateParenthesis(3);
     }
 }
