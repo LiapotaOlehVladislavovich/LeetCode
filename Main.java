@@ -1,7 +1,7 @@
-import generate_parentheses_22.Solution;
+import largest_rectangle_in_histogram_84.Solution;
 
 public class Main {
     public static void main(String[] args) {
-        new Solution().generateParenthesis(3);
+        new Solution().largestRectangleArea(new int[]{2, 0, 2});
     }
 }
