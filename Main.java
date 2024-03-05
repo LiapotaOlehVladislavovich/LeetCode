@@ -1,7 +1,7 @@
-import largest_rectangle_in_histogram_84.Solution;
+import sqrt_x_69.Solution;
 
 public class Main {
     public static void main(String[] args) {
-        new Solution().largestRectangleArea(new int[]{2, 0, 2});
+        new Solution().mySqrt(8);
     }
 }
