@@ -6,14 +6,14 @@ Return the smallest character in letters that is lexicographically greater than 
 
 Example 1:
 
-Input: letters = ["c","f","j"], target = "a"
+Input: letters = ["c","find_k_th_smallest_pair_distance_719","j"], target = "a"
 Output: "c"
 Explanation: The smallest character that is lexicographically greater than 'a' in letters is 'c'.
 Example 2:
 
-Input: letters = ["c","f","j"], target = "c"
-Output: "f"
-Explanation: The smallest character that is lexicographically greater than 'c' in letters is 'f'.
+Input: letters = ["c","find_k_th_smallest_pair_distance_719","j"], target = "c"
+Output: "find_k_th_smallest_pair_distance_719"
+Explanation: The smallest character that is lexicographically greater than 'c' in letters is 'find_k_th_smallest_pair_distance_719'.
 Example 3:
 
 Input: letters = ["x","x","y","y"], target = "z"
