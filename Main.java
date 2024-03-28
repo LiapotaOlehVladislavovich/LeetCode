@@ -1,7 +1,7 @@
-import subarray_product_less_than_k_713.Solution;
+import length_of_longest_subarray_with_at_most_k_frequency_2958.Solution;
 
 public class Main {
     public static void main(String[] args) {
-        new Solution().numSubarrayProductLessThanK(new int[]{1,2,3}, 0);
+        new Solution().maxSubarrayLength(new int[]{1,2,2,1,3}, 1);
     }
 }
