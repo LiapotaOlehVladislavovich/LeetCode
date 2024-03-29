@@ -1,7 +1,7 @@
-import length_of_longest_subarray_with_at_most_k_frequency_2958.Solution;
+import count_subarry_where_max_element_appears_at_least_k_times_2962.Solution;
 
 public class Main {
     public static void main(String[] args) {
-        new Solution().maxSubarrayLength(new int[]{1,2,2,1,3}, 1);
+        new Solution().countSubarrays(new int[]{1,3,2,3,3}, 2);
     }
 }
