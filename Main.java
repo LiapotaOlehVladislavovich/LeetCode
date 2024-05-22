@@ -1,7 +1,7 @@
-import subsets_78.Solution;
+import palindrome_partitioning_131.Solution;
 
 public class Main {
     public static void main(String[] args) {
-        new Solution().subsets(new int[]{1, 2, 3});
+        new Solution().partition("aab");
     }
 }
