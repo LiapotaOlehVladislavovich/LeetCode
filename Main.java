@@ -1,7 +1,7 @@
-import get_equal_substrings_within_budget_1208.Solution;
+import number_of_steps_to_reduce_a_number_in_binary_representation_to_one_1404.Solution;
 
 public class Main {
     public static void main(String[] args) {
-        new Solution().equalSubstring("abcd", "acde", 0);
+        new Solution().numSteps("1101");
     }
 }
