@@ -1,7 +1,7 @@
-import relative_sort_array_1122.Solution;
+import sort_colors_75.Solution;
 
 public class Main {
     public static void main(String[] args) {
-        new Solution().relativeSortArray(new int[]{33,22,48,4,39,36,41,47,15,45}, new int[]{22,33,48,4});
+        new Solution().sortColors(new int[]{2,0,2,1,1,0});
     }
 }
